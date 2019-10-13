@@ -1,4 +1,4 @@
-ARG HADOOP_BASE=3.2.0-debian
+ARG HADOOP_BASE=3.2.1-debian
 FROM nvtienanh/hadoop-base:${HADOOP_BASE}
 
 LABEL MAINTAINER = "Anh Nguyen <nvtienanh@gmail.com>" 
