@@ -29,7 +29,7 @@ deploy() {
      --build-arg VCS_REF=`git rev-parse --short HEAD` \
      --build-arg HADOOP_TAG=$HADOOP_TAG \
      --build-arg HIVE_VERSION=$HIVE_VERSION .
-    docker push $IMAGE
+    docker push nvtienanh/hive:$IMAGE_TAG
 }
 
 
