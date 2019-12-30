@@ -1,18 +1,20 @@
-ARG HADOOP_BASE=3.2.1-debian
-FROM nvtienanh/hadoop-base:${HADOOP_BASE}
+ARG HADOOP_TAG
+FROM nvtienanh/hadoop-base:${HADOOP_TAG}
 
-LABEL MAINTAINER = "Anh Nguyen <nvtienanh@gmail.com>" 
-
-# Allow buildtime config of HIVE_VERSION
 ARG HIVE_VERSION
-# Set HIVE_VERSION from arg if provided at build, env if provided at run, or default
-# https://docs.docker.com/engine/reference/builder/#using-arg-variables
-# https://docs.docker.com/engine/reference/builder/#environment-replacement
-ENV HIVE_VERSION=${HIVE_VERSION:-2.3.4}
+ARG BUILD_DATE
+ARG VCS_REF
+LABEL org.label-schema.build-date=$BUILD_DATE \
+        org.label-schema.name="Apache Hive" \
+        org.label-schema.description="Apache Hive docker image based on Debian Linux" \
+        org.label-schema.vcs-ref=$VCS_REF \
+        org.label-schema.vcs-url="https://github.com/nvtienanh/docker-hive" \
+        org.label-schema.vendor="nvtienanh" \
+        org.label-schema.version=$HIVE_VERSION \
+        org.label-schema.schema-version="1.0"
 
 ENV HIVE_HOME /opt/hive
 ENV PATH $HIVE_HOME/bin:$PATH
-ENV HADOOP_HOME /opt/hadoop-$HADOOP_VERSION
 
 WORKDIR /opt
 # Develop mode
