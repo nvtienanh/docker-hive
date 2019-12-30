@@ -1,5 +1,6 @@
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
-[![Build Status](https://travis-ci.org/nvtienanh/docker-hive.svg?branch=master)](https://travis-ci.org/nvtienanh/docker-hive)
+[![Docker Version](https://images.microbadger.com/badges/version/nvtienanh/hive:2.3.4-debian.svg)](https://hub.docker.com/r/nvtienanh/hive/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nvtienanh/hive)](https://hub.docker.com/r/nvtienanh/hive/)
+[![Docker Layers](https://img.shields.io/microbadger/layers/nvtienanh/hive/2.3.4-debian)](https://hub.docker.com/r/nvtienanh/hive/)
 
 # Docker image: Apache Hive
 
