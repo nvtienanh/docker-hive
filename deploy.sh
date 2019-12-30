@@ -33,6 +33,6 @@ deploy() {
 }
 
 
-deploy $IMAGE_TAG $HIVE_VERSION 3.2.1-debian
+deploy $IMAGE_TAG $HIVE_VERSION 3.2.1-alpine
 # Update Microbadger
 # curl -X POST https://hooks.microbadger.com/images/nvtienanh/hadoop-base/CA79IP9AVi0mpSaTDfi9k4POrdQ=

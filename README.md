@@ -1,8 +1,9 @@
-[![Docker Version](https://images.microbadger.com/badges/version/nvtienanh/hive:2.3.4-debian.svg)](https://hub.docker.com/r/nvtienanh/hive/)
+# Apache Hadoop
+[![CI status](https://github.com/nvtienanh/docker-hive/workflows/CI/badge.svg?branch=2.3.4-alpine)](https://github.com/nvtienanh/docker-hive/actions?query=branch%3A+branch%3A2.3.4-alpine++)
+[![Docker Version](https://images.microbadger.com/badges/version/nvtienanh/hive:2.3.4-alpine.svg)](https://hub.docker.com/r/nvtienanh/hive/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nvtienanh/hive)](https://hub.docker.com/r/nvtienanh/hive/)
-[![Docker Layers](https://img.shields.io/microbadger/layers/nvtienanh/hive/2.3.4-debian)](https://hub.docker.com/r/nvtienanh/hive/)
+[![Docker Layers](https://img.shields.io/microbadger/layers/nvtienanh/hive/2.3.4-alpine)](https://hub.docker.com/r/nvtienanh/hive/)
 
-# Docker image: Apache Hive
 
 This is a docker container for Apache Hive 2.3.4. It is based on https://github.com/nvtienanh/docker-hadoop so check there for Hadoop configurations.
 This deploys Hive and starts a hiveserver2 on port 10000.

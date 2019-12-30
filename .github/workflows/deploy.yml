@@ -3,7 +3,7 @@ name: CI
 on: 
   push:
     branches:
-      - 2.3.4-debian
+      - 2.3.4-alpine
 
 jobs:
 
