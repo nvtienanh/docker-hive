@@ -1,4 +1,4 @@
-# Apache Hadoop
+# Apache Hive
 [![CI status](https://github.com/nvtienanh/docker-hive/workflows/CI/badge.svg?branch=2.3.4-alpine)](https://github.com/nvtienanh/docker-hive/actions?query=branch%3A+branch%3A2.3.4-alpine++)
 [![Docker Version](https://images.microbadger.com/badges/version/nvtienanh/hive:2.3.4-alpine.svg)](https://hub.docker.com/r/nvtienanh/hive/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/nvtienanh/hive)](https://hub.docker.com/r/nvtienanh/hive/)
